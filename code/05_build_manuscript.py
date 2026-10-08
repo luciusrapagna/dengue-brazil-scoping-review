@@ -86,7 +86,7 @@ FIG_LEGENDS = [
     ("Figure1_serotype_evidence_map", "Figure 1. Serotype-year evidence map of dengue epidemics in Brazil, 1981–2025.",
      "(A) Number of included studies with dated primary evidence for each epidemic year; shading indicates the five "
      "epidemic phases. (B) Number of studies reporting the circulation of each serotype by year; triangles indicate "
-     "documented introductions or re-emergence. Source: The authors, based on 106 included studies (495 serotype-year records)."),
+     "documented introductions or re-emergence. The most recent epidemic year documented by the included studies was 2025. Source: The authors, based on 106 included studies (495 serotype-year records)."),
     ("Figure2_geography_and_design", "Figure 2. Geographic distribution and design of the 286 included studies.",
      "(A) Number of studies by federative unit, grouped by macro-region; studies covering more than one unit are counted "
      "in each; pseudo-categories group studies whose federative unit was not specified. (B) Study design or focus by publication period. Source: The authors."),
