@@ -9,8 +9,8 @@ Data, search log, codebook and Python scripts for the scoping review
 ## Summary
 
 The review mapped 286 studies on dengue epidemics in Brazil published from 1983 to 2026 in English,
-Portuguese and Spanish (PubMed/MEDLINE, SciELO, ScienceDirect and the SciSpace semantic index, searched on
-7 October 2026, and LILACS, fully screened on 8 October 2026). Each study was charted and coded for federative unit, region, spatial scale, design,
+Portuguese and Spanish (PubMed/MEDLINE, SciELO, ScienceDirect and the SciSpace semantic index, searched in
+2026, and LILACS, fully screened in 2026). Each study was charted and coded for federative unit, region, spatial scale, design,
 epidemic period and serotype(s), and a serotype-year evidence matrix was built from 106 studies
 (495 serotype-year records).
 

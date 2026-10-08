@@ -81,10 +81,10 @@ def main():
 
     ax.text(17, 98, "First search round", ha="center", fontweight="bold")
     ax.text(62, 98, "Full screening of the LILACS search", ha="center", fontweight="bold")
-    put(17, 84, "Records identified\n(7 October 2026):\nPubMed/MEDLINE n = 591\nSciELO n = 107\n"
+    put(17, 84, "Records identified\n(2026):\nPubMed/MEDLINE n = 591\nSciELO n = 107\n"
                 "ScienceDirect n = 50\nSciSpace n = 10\n(top-ranked records\nscreened, n = 355)", grey)
     put(17, 40, f"Studies included\nin the first round\n(n = {first})", grey)
-    put(55, 88, f"Records identified from\nLILACS (8 October 2026)\n(n = {n['lilacs']})")
+    put(55, 88, f"Records identified from\nLILACS (2026)\n(n = {n['lilacs']})")
     put(87, 88, f"Duplicates removed\n(n = {n['dup']})\nalready included: {n['dup'] - 1}\nwithin LILACS: 1")
     put(55, 70, f"Records screened\n(title, document type)\n(n = {n['screened']})")
     sr = reasons.get("Screening", pd.Series(dtype=int))

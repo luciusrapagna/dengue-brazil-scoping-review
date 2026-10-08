@@ -331,8 +331,8 @@ def main():
         "Authors' contributions: [[INSERT]]",
         "Funding: [[INSERT; CAPES Finance Code 001 if applicable]]",
         "Conflicts of interest: [[INSERT: e.g., The authors declare no conflicts of interest.]]",
-        "Preprint: [[INSERT: preprint server and DOI, if any]]",
-        "Data availability: [[INSERT: GitHub URL and Zenodo DOI]]",
+        "Preprint: Not applicable. The manuscript has not been deposited in a preprint server.",
+        "Data availability: The data set, codebook, search and screening logs and Python scripts that reproduce all figures, tables and results are openly available at https://github.com/luciusrapagna/dengue-brazil-scoping-review and archived in Zenodo (https://doi.org/10.5281/zenodo.23242684) under CC BY 4.0 (data) and MIT (code) licences.",
         f"Article type: Review article. Characters (Introduction to last reference, with spaces): {len(chr(10).join(counted)):,}",
     ]
     for it in items:

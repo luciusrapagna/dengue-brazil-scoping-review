@@ -1,5 +1,5 @@
 """Full-text extraction of serotype information for the LILACS additions whose
-abstract did not report it (8 October 2026). Full texts were read from SciELO,
+abstract did not report it (2026). Full texts were read from SciELO,
 the journal websites (OJS/PDF) or BVS repositories.
 
 FULLTEXT_FOUND: bvs_index -> (serotype text, serotype-year evidence)

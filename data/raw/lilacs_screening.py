@@ -1,4 +1,4 @@
-"""Screening decisions for the 459 LILACS records (search of 8 October 2026).
+"""Screening decisions for the 459 LILACS records (search of 2026).
 
 Strategy (BVS portal, LILACS filter):
 ti:dengue AND tw:(epidemia OR epidemias OR epidemic OR epidemics OR surto OR surtos OR

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-08T13:07:59.106097</dc:date>
+    <dc:date>2026-10-08T14:50:31.484646</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -45,7 +45,7 @@ z
 " style="fill: #f0f0f0; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
     </g>
     <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(35.623201 41.034846)">Records identified</text>
-    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(36.352693 48.80782)">(7 October 2026):</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(52.180623 48.80782)">(2026):</text>
     <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(20.170271 58.081965)">PubMed/MEDLINE n = 591</text>
     <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(38.711677 66.600251)">SciELO n = 107</text>
     <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(31.637068 75.123811)">ScienceDirect n = 50</text>
@@ -68,15 +68,15 @@ z
    </g>
    <g id="text_5">
     <g id="patch_4">
-     <path d="M 145.178048 69.19656 
-L 231.702267 69.19656 
-L 231.702267 36.875881 
-L 145.178048 36.875881 
+     <path d="M 149.242111 69.19656 
+L 227.638204 69.19656 
+L 227.638204 36.875881 
+L 149.242111 36.875881 
 z
 " style="fill: #ffffff; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
     </g>
     <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(152.617111 47.065005)">Records identified from</text>
-    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(148.553048 54.837978)">LILACS (8 October 2026)</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(164.380978 54.837978)">LILACS (2026)</text>
     <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(174.453243 63.361538)">(n = 459)</text>
    </g>
    <g id="text_6">

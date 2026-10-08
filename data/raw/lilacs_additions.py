@@ -1,4 +1,4 @@
-"""Studies added after the full screening of the LILACS search (8 October 2026).
+"""Studies added after the full screening of the LILACS search (2026).
 
 Each record: (bvs_index, first author, year, title, journal, doi, language,
 setting (pt), serotype (pt), main findings (pt), states, scale, design,
