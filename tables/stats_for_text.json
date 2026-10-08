@@ -1,0 +1,97 @@
+{
+ "n_studies": 103,
+ "n_applicable_serotype": 98,
+ "serotype_abstract": 51,
+ "serotype_fulltext": 28,
+ "serotype_context": 5,
+ "serotype_notreported": 14,
+ "abstract_by_period": {
+  "1981-1990": "3/4 (75.0%)",
+  "1991-2000": "13/16 (81.2%)",
+  "2001-2010": "15/29 (51.7%)",
+  "2011-2020": "13/26 (50.0%)",
+  "2021-2026": "7/23 (30.4%)"
+ },
+ "trend_z": -3.02,
+ "trend_p": 0.0025,
+ "abstract_share_by_design": {
+  "CLIN": 43.8,
+  "CTRL": 25.0,
+  "DIAG": 71.4,
+  "HIST": 42.9,
+  "MODL": 0.0,
+  "SERO": 72.7,
+  "SPAT": 15.4,
+  "SURV": 25.0,
+  "VIRO": 95.5
+ },
+ "n_by_design": {
+  "VIRO": 22,
+  "SURV": 18,
+  "CLIN": 16,
+  "SPAT": 13,
+  "SERO": 11,
+  "DIAG": 7,
+  "HIST": 7,
+  "CTRL": 7,
+  "MODL": 2
+ },
+ "states": {
+  "RJ": 23,
+  "BR": 20,
+  "SP": 16,
+  "MG": 8,
+  "CE": 8,
+  "BA": 6,
+  "AM": 4,
+  "RR": 2,
+  "MA": 2,
+  "ES": 2,
+  "GO": 2,
+  "DF": 2,
+  "PE": 2,
+  "TO": 1,
+  "RN": 1,
+  "RO": 1,
+  "PI": 1,
+  "MT": 1,
+  "SC": 1,
+  "RS": 1
+ },
+ "regions": {
+  "Southeast": 49,
+  "Northeast": 20,
+  "National": 20,
+  "North": 8,
+  "Central-West": 5,
+  "South": 2
+ },
+ "scale": {
+  "Municipal": 56,
+  "State": 26,
+  "National": 19,
+  "Multi-state": 2
+ },
+ "studies_in_serotype_map": 62,
+ "serotype_year_records": 260,
+ "peak_years": {
+  "2002": 11,
+  "2001": 11,
+  "2012": 9,
+  "1998": 7
+ },
+ "languages": {
+  "English": 72,
+  "Portuguese": 27,
+  "Spanish": 3,
+  "English/Portuguese": 1
+ },
+ "not_in_pubmed": 45,
+ "pub_period": {
+  "1981-1990": 4,
+  "1991-2000": 16,
+  "2001-2010": 31,
+  "2011-2020": 29,
+  "2021-2026": 23
+ }
+}

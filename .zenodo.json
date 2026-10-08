@@ -1,0 +1,15 @@
+{
+  "title": "Four decades of dengue epidemics in Brazil: data and code for a scoping review of serotype succession, severity and evidence gaps",
+  "upload_type": "dataset",
+  "description": "<p>Data set, search log, codebook and Python scripts that reproduce the figures, tables and results of a scoping review on dengue epidemics in Brazil (1981-2026).</p><p>Contents: charting table of the 103 included studies; coded variables (federative unit, region, spatial scale, study design, epidemic period, source of serotype information); serotype-year evidence matrix; search log; PRISMA-ScR flow diagram and checklist; Figures 1-3 and Tables 1-2.</p>",
+  "creators": [
+    {"name": "Rapagna, Luciano"}
+  ],
+  "keywords": ["dengue", "dengue virus", "epidemics", "serogroup", "Brazil", "scoping review"],
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "access_right": "open",
+  "related_identifiers": [
+    {"identifier": "https://github.com/luciusrapagna/dengue-brazil-scoping-review", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}

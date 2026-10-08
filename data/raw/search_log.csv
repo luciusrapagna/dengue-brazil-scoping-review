@@ -1,0 +1,13 @@
+source,date,query,filters,records_retrieved,records_screened,notes
+PubMed/MEDLINE,2026-10-07,(dengue[Title]) AND (epidemic[Title] OR outbreak[Title] OR epidemics[Title]) AND Brazil,publication date 1976-2026; sorted by relevance,205,60,Top 60 records by relevance screened (INSERT: screen remaining records)
+PubMed/MEDLINE,2026-10-07,dengue[Title] AND (epidemic OR outbreak OR epidemics) AND Brazil AND Portuguese[Language],publication date 1976-2026,122,40,Top 40 records screened (INSERT: screen remaining records)
+PubMed/MEDLINE,2026-10-07,dengue[Title] AND (epidemic OR outbreak OR epidemics OR epidemiology) AND Brazil AND Spanish[Language],publication date 1976-2026,4,4,
+PubMed/MEDLINE,2026-10-07,dengue[Title] AND Brazil AND (epidemic OR outbreak) AND 1976:2005[pdat],-,114,40,Top 40 records screened (INSERT: screen remaining records)
+PubMed/MEDLINE,2026-10-07,dengue Brazil epidemic (1986 OR 1990 OR 2002 OR 2008 OR 2015 OR 2024) serotype,publication date 1976-2026,132,30,Top 30 records screened (INSERT: screen remaining records)
+PubMed/MEDLINE,2026-10-07,Targeted query for landmark reports (Schatzmayr 1986; Osanai; Nogueira 1990/2001; Temporao; Teixeira 2013; Nunes),-,14,14,Hand-search of landmark reports cited in reviews
+SciELO (Brazil collection),2026-10-07,dengue AND (epidemia OR surto OR epidemic OR brote) AND (Brasil OR Brazil),Brazil collection,84,84,
+SciELO (all collections),2026-10-07,dengue AND (epidemia OR brote) AND Brasil,Spanish language,3,3,
+SciELO (all collections),2026-10-07,dengue AND (Brasil OR brasileno OR brasilena),Spanish language,20,20,
+ScienceDirect,2026-10-07,Keywords: dengue epidemic Brazil; Title: dengue,1976-2026,50,50,First 50 results screened (INSERT: total hits and remaining records)
+SciSpace (semantic index),2026-10-07,What were the characteristics serotypes and magnitude of dengue epidemics in Brazil since the 1980s?,-,10,10,Complementary semantic index
+LILACS/BVS,2026-10-07,dengue AND (epidemia OR surto OR brote OR epidemic) AND (brasil OR brazil),LILACS,NA,NA,Portal unavailable (HTTP 502) on all attempts on 7 and 8 October 2026

@@ -1,0 +1,9 @@
+box,n,label
+db_records,758,"Records identified from databases (PubMed n=591; SciELO n=107; ScienceDirect n=50; SciSpace n=10)"
+other_records,,"Records identified from citation searching"
+duplicates,,"Duplicate records removed"
+screened,355,"Records screened (title/abstract)"
+excluded_screen,,"Records excluded"
+fulltext,,"Full-text reports assessed for eligibility"
+excluded_ft,,"Full-text reports excluded, with reasons"
+included,103,"Sources of evidence included in the review"
