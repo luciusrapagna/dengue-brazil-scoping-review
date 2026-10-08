@@ -4,6 +4,8 @@ Data, search log, codebook and Python scripts for the scoping review
 **"Four decades of dengue epidemics in Brazil: a scoping review of serotype succession, severity and evidence gaps"**
 (manuscript under review). The manuscript text will be added after publication.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23242684.svg)](https://doi.org/10.5281/zenodo.23242684)
+
 ## Summary
 
 The review mapped 103 studies on dengue epidemics in Brazil published from 1983 to 2026 in English,
@@ -67,7 +69,7 @@ results (see `data/raw/search_log.csv`).
 
 ## How to cite
 
-See `CITATION.cff` or the Zenodo record.
+See `CITATION.cff` or the Zenodo record: https://doi.org/10.5281/zenodo.23242684
 
 ## Licences
 
