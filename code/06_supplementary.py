@@ -1,6 +1,7 @@
 """Supplementary material.
 
 S1  Included studies with coded variables (xlsx)
+S4  LILACS screening log (written by 04_prisma.py)
 S2  Search log: sources, dates, strategies and records (xlsx)
 S3  PRISMA-ScR checklist with placeholders for page numbers (docx)
 """

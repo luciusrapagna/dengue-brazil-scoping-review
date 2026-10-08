@@ -58,7 +58,7 @@ def figure1(studies, sy):
     ax0.set_ylim(0, per_year.max() * 1.3)
     ax0.text(-0.085, 1.02, "A", transform=ax0.transAxes, fontweight="bold", fontsize=10)
 
-    bounds = [0, 1, 2, 4, 7, 20]
+    bounds = [0, 1, 3, 6, 11, 60]
     cmap = ListedColormap(GREYS)
     norm = BoundaryNorm(bounds, cmap.N)
     z = counts.values.astype(float)
@@ -78,7 +78,7 @@ def figure1(studies, sy):
         ax1.scatter(y, sero.index(s), marker="v", s=22, facecolor="white", edgecolor=INK,
                     linewidth=0.8, zorder=4)
     ax1.text(-0.085, 1.02, "B", transform=ax1.transAxes, fontweight="bold", fontsize=10)
-    labels = ["0", "1", "2–3", "4–6", "≥7"]
+    labels = ["0", "1–2", "3–5", "6–10", "≥11"]
     handles = [plt.Rectangle((0, 0), 1, 1, fc=c, ec="#bdbdbd", lw=0.4) for c in GREYS]
     handles.append(plt.Line2D([], [], marker="v", ls="", mfc="white", mec=INK, ms=5))
     ax1.legend(handles, labels + ["Introduction/re-emergence"], title="Studies reporting the serotype",
@@ -90,7 +90,7 @@ def figure1(studies, sy):
 
 def figure2(studies):
     """Where and how the evidence was produced."""
-    order_reg = ["Southeast", "Northeast", "North", "Central-West", "South", "National"]
+    order_reg = ["Southeast", "Northeast", "North", "Central-West", "South", "National", "Not specified"]
     st = studies.assign(state=studies["states"].str.split(";")).explode("state")
     reg = {"BR": "National"}
     import importlib.util
@@ -100,25 +100,28 @@ def figure2(studies):
     cnt = st.groupby(["reg", "state"])["id"].nunique().reset_index()
     cnt["reg"] = pd.Categorical(cnt["reg"], order_reg, ordered=True)
     cnt = cnt.sort_values(["reg", "id"], ascending=[True, True])
-    shade = dict(zip(order_reg, ["#252525", "#636363", "#969696", "#bdbdbd", "#d9d9d9", "#ffffff"]))
+    shade = dict(zip(order_reg, ["#252525", "#636363", "#969696", "#bdbdbd", "#d9d9d9", "#ffffff", "#f0f0f0"]))
 
-    fig, (a, bx) = plt.subplots(1, 2, figsize=(15 * CM, 8.6 * CM),
+    fig, (a, bx) = plt.subplots(1, 2, figsize=(15 * CM, 13.5 * CM),
                                 gridspec_kw={"width_ratios": [0.9, 1.25], "wspace": 0.42})
     ypos, labels, y = [], [], 0
     for r in order_reg:
         sub = cnt[cnt["reg"] == r].sort_values("id")
         for _, row in sub.iterrows():
-            a.barh(y, row["id"], color=shade[r], edgecolor=INK, linewidth=0.5, height=0.72)
-            a.text(row["id"] + 0.3, y, str(row["id"]), va="center", fontsize=7)
-            labels.append("Brazil (national)" if row["state"] == "BR" else row["state"]); ypos.append(y)
+            a.barh(y, row["id"], color=shade[r], edgecolor=INK, linewidth=0.5, height=0.75)
+            a.text(row["id"] + 0.6, y, str(row["id"]), va="center", fontsize=6.5)
+            lab = {"BR": "Brazil (national)", "UNK": "Not specified", "NORTE": "North (unspecified)",
+                   "NORDESTE": "Northeast (unspecified)", "SUDESTE": "Southeast (unspecified)",
+                   "SUL": "South (unspecified)", "CO": "Central-West (unspecified)"}.get(row["state"], row["state"])
+            labels.append(lab); ypos.append(y)
             y += 1
         y += 0.6
-    a.set_yticks(ypos, labels)
+    a.set_yticks(ypos, labels, fontsize=6.5)
     a.invert_yaxis()
     a.set_xlabel("Studies (n)")
     a.tick_params(axis="y", length=0)
     a.legend([plt.Rectangle((0, 0), 1, 1, fc=shade[r], ec=INK, lw=0.5) for r in order_reg],
-             order_reg, frameon=False, loc="center right", fontsize=7, handlelength=1)
+             order_reg, frameon=False, loc="center right", fontsize=6.5, handlelength=1)
     a.text(-0.32, 1.02, "A", transform=a.transAxes, fontweight="bold", fontsize=10)
 
     dorder = ["VIRO", "SERO", "SURV", "CLIN", "SPAT", "DIAG", "MODL", "CTRL", "HIST"]
@@ -140,7 +143,7 @@ def figure2(studies):
     bx.set_ylabel("Studies (n)")
     bx.legend(frameon=False, fontsize=6.5, loc="upper left", bbox_to_anchor=(0.0, 1.0),
               handlelength=1.3, labelspacing=0.3)
-    bx.set_ylim(0, bottom.max() * 1.9)
+    bx.set_ylim(0, bottom.max() * 1.55)
     bx.text(-0.2, 1.02, "B", transform=bx.transAxes, fontweight="bold", fontsize=10)
     save(fig, "Figure2_geography_and_design")
 

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="343.927559pt" height="396.368504pt" viewBox="0 0 343.927559 396.368504" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-08T13:07:59.106097</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396.368504 
+L 343.927559 396.368504 
+L 343.927559 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="63.219685" y="14.83937" transform="rotate(-0 63.219685 14.83937)">First search round</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="211.507087" y="14.83937" transform="rotate(-0 211.507087 14.83937)">Full screening of the LILACS search</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_2">
+     <path d="M 16.795271 105.784199 
+L 109.644099 105.784199 
+L 109.644099 30.845722 
+L 16.795271 30.845722 
+z
+" style="fill: #f0f0f0; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(35.623201 41.034846)">Records identified</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(36.352693 48.80782)">(7 October 2026):</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(20.170271 58.081965)">PubMed/MEDLINE n = 591</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(38.711677 66.600251)">SciELO n = 107</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(31.637068 75.123811)">ScienceDirect n = 50</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(38.921443 82.902058)">SciSpace n = 10</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(33.75406 91.425617)">(top-ranked records</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(35.489607 99.949177)">screened, n = 355)</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_3">
+     <path d="M 34.74488 252.541442 
+L 91.69449 252.541442 
+L 91.69449 220.220763 
+L 34.74488 220.220763 
+z
+" style="fill: #f0f0f0; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(38.32613 230.404613)">Studies included</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(38.11988 238.933446)">in the first round</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(49.232771 246.70642)">(n = 103)</text>
+   </g>
+   <g id="text_5">
+    <g id="patch_4">
+     <path d="M 145.178048 69.19656 
+L 231.702267 69.19656 
+L 231.702267 36.875881 
+L 145.178048 36.875881 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(152.617111 47.065005)">Records identified from</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(148.553048 54.837978)">LILACS (8 October 2026)</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(174.453243 63.361538)">(n = 459)</text>
+   </g>
+   <g id="text_6">
+    <g id="patch_5">
+     <path d="M 259.899914 73.45834 
+L 327.878039 73.45834 
+L 327.878039 32.614101 
+L 259.899914 32.614101 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(263.79464 42.052639)">Duplicates removed</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(281.777062 50.576198)">(n = 68)</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(263.274914 59.092727)">already included: 67</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(266.389172 68.36863)">within LILACS: 1</text>
+   </g>
+   <g id="text_7">
+    <g id="patch_6">
+     <path d="M 152.67922 137.950891 
+L 224.201095 137.950891 
+L 224.201095 105.630212 
+L 152.67922 105.630212 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(162.096993 115.819335)">Records screened</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(156.05422 123.585278)">(title, document type)</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(174.453243 132.115869)">(n = 391)</text>
+   </g>
+   <g id="text_8">
+    <g id="patch_7">
+     <path d="M 251.831555 168.062919 
+L 335.946398 168.062919 
+L 335.946398 106.075663 
+L 251.831555 106.075663 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 7px; font-family: 'Times New Roman'" transform="translate(254.981555 114.884965)">Records excluded (n = 199)</text>
+    <text style="font-size: 7px; font-family: 'Times New Roman'" transform="translate(261.23343 122.835366)">not a journal article: 87</text>
+    <text style="font-size: 7px; font-family: 'Times New Roman'" transform="translate(266.575851 130.789047)">no original data: 22</text>
+    <text style="font-size: 7px; font-family: 'Times New Roman'" transform="translate(259.286555 138.750932)">not specific to Brazil: 15</text>
+    <text style="font-size: 7px; font-family: 'Times New Roman'" transform="translate(270.367336 147.406801)">other disease: 20</text>
+    <text style="font-size: 7px; font-family: 'Times New Roman'" transform="translate(257.344055 154.655014)">vector/laboratory only: 22</text>
+    <text style="font-size: 7px; font-family: 'Times New Roman'" transform="translate(272.114601 162.616899)">other topics: 33</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_8">
+     <path d="M 142.987228 214.344591 
+L 233.893087 214.344591 
+L 233.893087 182.023913 
+L 142.987228 182.023913 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(146.362228 192.213036)">Abstracts/full texts assessed</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(168.548165 199.978979)">for eligibility</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(174.453243 208.509569)">(n = 192)</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_9">
+     <path d="M 253.551281 237.704796 
+L 334.226672 237.704796 
+L 334.226672 196.860558 
+L 253.551281 196.860558 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(268.553039 206.299096)">Excluded (n = 9)</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(264.212414 214.822655)">no epidemic data or</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(260.568469 223.346215)">not epidemic-specific,</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(256.926281 231.487157)">case report, commentary</text>
+   </g>
+   <g id="text_11">
+    <g id="patch_10">
+     <path d="M 152.778829 286.476512 
+L 224.101486 286.476512 
+L 224.101486 262.679393 
+L 152.778829 262.679393 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(156.153829 272.868517)">New studies included</text>
+    <text style="font-size: 7.5px; font-family: 'Times New Roman'" transform="translate(174.453243 280.64149)">(n = 183)</text>
+   </g>
+   <g id="text_12">
+    <g id="patch_11">
+     <path d="M 61.518124 364.456688 
+L 190.141718 364.456688 
+L 190.141718 337.486619 
+L 61.518124 337.486619 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(65.343124 349.034293)">Total studies included in the review</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(109.978085 357.843663)">(n = 286)</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 188.440157 77.955096 
+Q 188.440157 89.322595 188.440157 99.90747 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 190.040157 96.70747 
+L 188.440157 99.90747 
+L 186.840157 96.70747 
+z
+" style="stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 231.631317 53.03622 
+Q 240.342878 53.03622 248.271815 53.03622 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 245.071815 51.43622 
+L 248.271815 53.03622 
+L 245.071815 54.63622 
+z
+" style="stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 188.440157 142.889275 
+Q 188.440157 159.986755 188.440157 176.301611 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 190.040157 173.101611 
+L 188.440157 176.301611 
+L 186.840157 173.101611 
+z
+" style="stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 226.573359 122.462913 
+Q 235.39972 125.610909 243.488938 128.495996 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 241.012393 125.913997 
+L 243.488938 128.495996 
+L 239.937411 128.928033 
+z
+" style="stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 188.440157 219.280412 
+Q 188.440157 238.290808 188.440157 256.51858 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 190.040157 253.31858 
+L 188.440157 256.51858 
+L 186.840157 253.31858 
+z
+" style="stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 233.092912 199.025403 
+Q 239.516576 202.003773 245.230223 204.652939 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 243.000122 201.855324 
+L 245.230223 204.652939 
+L 241.65407 204.758451 
+z
+" style="stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 187.072691 291.319849 
+Q 167.01929 312.77649 147.500275 333.661351 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 150.854226 332.415954 
+L 147.500275 333.661351 
+L 148.516328 330.230952 
+z
+" style="stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 64.198875 261.045394 
+Q 84.639948 297.497795 104.698233 333.267574 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 104.528643 329.693887 
+L 104.698233 333.267574 
+L 101.737529 331.259034 
+z
+" style="stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 63.219685 123.79085 
+Q 63.219685 167.626702 63.219685 210.679931 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 64.819685 207.479931 
+L 63.219685 210.679931 
+L 61.619685 207.479931 
+z
+" style="stroke: #000000; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+</svg>

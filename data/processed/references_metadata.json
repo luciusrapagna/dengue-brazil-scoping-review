@@ -1591,5 +1591,302 @@
   "pages": "91-100",
   "doi": "10.1016/S1473-3099(25)00382-2",
   "language": "eng"
+ },
+ "nogueira1999": {
+  "source": "pubmed",
+  "pmid": "10419380",
+  "authors": [
+   "Nogueira RM",
+   "Miagostovich MP",
+   "Schatzmayr HG",
+   "dos Santos FB",
+   "de Araújo ES",
+   "de Filippis AM",
+   "de Souza RV",
+   "Zagne SM",
+   "Nicolai C",
+   "Baran M",
+   "Teixeira Filho G"
+  ],
+  "title": "Dengue in the State of Rio de Janeiro, Brazil, 1986-1998.",
+  "journal": "Mem Inst Oswaldo Cruz",
+  "year": "1999",
+  "volume": "94",
+  "issue": "3",
+  "pages": "297-304",
+  "doi": "10.1590/s0074-02761999000300004",
+  "language": "eng"
+ },
+ "cordeiro2007": {
+  "source": "pubmed",
+  "pmid": "18200409",
+  "authors": [
+   "Cordeiro MT",
+   "Schatzmayr HG",
+   "Nogueira RM",
+   "Oliveira VF",
+   "Melo WT",
+   "Carvalho EF"
+  ],
+  "title": "Dengue and dengue hemorrhagic fever in the State of Pernambuco, 1995-2006.",
+  "journal": "Rev Soc Bras Med Trop",
+  "year": "2007",
+  "volume": "40",
+  "issue": "6",
+  "pages": "605-11",
+  "doi": "10.1590/s0037-86822007000600001",
+  "language": "eng"
+ },
+ "montenegro2006": {
+  "source": "pubmed",
+  "pmid": "16501759",
+  "authors": [
+   "Montenegro D",
+   "Lacerda HR",
+   "Lira TM",
+   "Oliveira DS",
+   "Lima AA",
+   "Guimarães MJ",
+   "Vasconcelos PG"
+  ],
+  "title": "[Clinical and epidemiological aspects of the dengue epidemic in Recife, PE, 2002].",
+  "journal": "Rev Soc Bras Med Trop",
+  "year": "2006",
+  "volume": "39",
+  "issue": "1",
+  "pages": "9-13",
+  "doi": "10.1590/s0037-86822006000100002",
+  "language": "por"
+ },
+ "jesus2020": {
+  "source": "pubmed",
+  "pmid": "32428189",
+  "authors": [
+   "de Jesus JG",
+   "Dutra KR",
+   "Sales FCDS",
+   "Claro IM",
+   "Terzian AC",
+   "Candido DDS",
+   "Hill SC",
+   "Thézé J",
+   "Torres C",
+   "D'Agostini TL",
+   "Felix AC",
+   "Reis AFN",
+   "Alcantara LCJ",
+   "de Abreu AL",
+   "Croda JH",
+   "de Oliveira WK",
+   "de Filipis AMB",
+   "Camis MDCRDS",
+   "Romano CM"
+  ],
+  "title": "Genomic detection of a virus lineage replacement event of dengue virus serotype 2 in Brazil, 2019.",
+  "journal": "Mem Inst Oswaldo Cruz",
+  "year": "2020",
+  "volume": "115",
+  "issue": null,
+  "pages": "e190423",
+  "doi": "10.1590/0074-02760190423",
+  "language": "eng"
+ },
+ "paixao2015": {
+  "source": "pubmed",
+  "pmid": "26312928",
+  "authors": [
+   "Paixão ES",
+   "Costa Mda C",
+   "Rodrigues LC",
+   "Rasella D",
+   "Cardim LL",
+   "Brasileiro AC",
+   "Teixeira MG"
+  ],
+  "title": "Trends and factors associated with dengue mortality and fatality in Brazil.",
+  "journal": "Rev Soc Bras Med Trop",
+  "year": "2015",
+  "volume": "48",
+  "issue": "4",
+  "pages": "399-405",
+  "doi": "10.1590/0037-8682-0145-2015",
+  "language": "eng"
+ },
+ "moraes2009": {
+  "source": "pubmed",
+  "pmid": "19936474",
+  "authors": [
+   "Moraes GH",
+   "Duarte EC"
+  ],
+  "title": "[Reliability of dengue mortality data in two national health information systems, Brazil, 2000-2005].",
+  "journal": "Cad Saude Publica",
+  "year": "2009",
+  "volume": "25",
+  "issue": "11",
+  "pages": "2354-64",
+  "doi": "10.1590/s0102-311x2009001100006",
+  "language": "por"
+ },
+ "rabelo2020": {
+  "source": "pubmed",
+  "pmid": "32556043",
+  "authors": [
+   "Rabelo ACL",
+   "Amâncio FF",
+   "Oiko CSF",
+   "Ferraz ML",
+   "Carneiro M"
+  ],
+  "title": "Characterization of dengue cases confirmed using the database linkage technique: assessment of virus circulation in Belo Horizonte, Brazil, 2009-2014.",
+  "journal": "Epidemiol Serv Saude",
+  "year": "2020",
+  "volume": "29",
+  "issue": "3",
+  "pages": "e2019354",
+  "doi": "10.5123/S1679-49742020000300016",
+  "language": "eng"
+ },
+ "burattini2016": {
+  "source": "pubmed",
+  "pmid": "27626476",
+  "authors": [
+   "Burattini MN",
+   "Lopez LF",
+   "Coutinho FA",
+   "Siqueira JB",
+   "Homsani S",
+   "Sarti E",
+   "Massad E"
+  ],
+  "title": "Age and regional differences in clinical presentation and risk of hospitalization for dengue in Brazil, 2000-2014.",
+  "journal": "Clinics (Sao Paulo)",
+  "year": "2016",
+  "volume": "71",
+  "issue": "8",
+  "pages": "455-63",
+  "doi": "10.6061/clinics/2016(08)08",
+  "language": "eng"
+ },
+ "vasconcelos1995": {
+  "source": "pubmed",
+  "pmid": "8525272",
+  "authors": [
+   "Vasconcelos PF",
+   "de Menezes DB",
+   "Melo LP",
+   "Pesso ET",
+   "Rodrigues SG",
+   "da Rosa ES",
+   "Timbó MJ",
+   "Coelho IC",
+   "Montenegro F",
+   "da Rosa JF"
+  ],
+  "title": "A large epidemic of dengue fever with dengue hemorrhagic cases in Ceará State, Brazil, 1994.",
+  "journal": "Rev Inst Med Trop Sao Paulo",
+  "year": "1995",
+  "volume": "37",
+  "issue": "3",
+  "pages": "253-5",
+  "doi": "10.1590/s0036-46651995000300012",
+  "language": "eng"
+ },
+ "almeida2009": {
+  "source": "pubmed",
+  "pmid": "19649472",
+  "authors": [
+   "Almeida AS",
+   "Medronho Rde A",
+   "Valencia LI"
+  ],
+  "title": "Spatial analysis of dengue and the socioeconomic context of the city of Rio de Janeiro (Southeastern Brazil).",
+  "journal": "Rev Saude Publica",
+  "year": "2009",
+  "volume": "43",
+  "issue": "4",
+  "pages": "666-73",
+  "doi": "10.1590/s0034-89102009000400013",
+  "language": "eng"
+ },
+ "caprara2009": {
+  "source": "pubmed",
+  "pmid": "19287857",
+  "authors": [
+   "Caprara A",
+   "Lima JW",
+   "Marinho AC",
+   "Calvasina PG",
+   "Landim LP",
+   "Sommerfeld J"
+  ],
+  "title": "Irregular water supply, household usage and dengue: a bio-social study in the Brazilian Northeast.",
+  "journal": "Cad Saude Publica",
+  "year": "2009",
+  "volume": "25 Suppl 1",
+  "issue": null,
+  "pages": "S125-36",
+  "doi": "10.1590/s0102-311x2009001300012",
+  "language": "eng"
+ },
+ "marques2020": {
+  "source": "pubmed",
+  "pmid": "32159659",
+  "authors": [
+   "Marques CA",
+   "Siqueira MM",
+   "Portugal FB"
+  ],
+  "title": "[Assessment of the lack of completeness of compulsory dengue fever notifications registered by a small municipality in Brazil].",
+  "journal": "Cien Saude Colet",
+  "year": "2020",
+  "volume": "25",
+  "issue": "3",
+  "pages": "891-900",
+  "doi": "10.1590/1413-81232020253.16162018",
+  "language": "por"
+ },
+ "werneck2018": {
+  "source": "pubmed",
+  "pmid": "30043823",
+  "authors": [
+   "Werneck GL",
+   "Macias AE",
+   "Mascarenas C",
+   "Coudeville L",
+   "Morley D",
+   "Recamier V",
+   "Guergova-Kuras M",
+   "Puentes-Rosas E",
+   "Baurin N",
+   "Toh ML"
+  ],
+  "title": "Comorbidities increase in-hospital mortality in dengue patients in Brazil.",
+  "journal": "Mem Inst Oswaldo Cruz",
+  "year": "2018",
+  "volume": "113",
+  "issue": "8",
+  "pages": "e180082",
+  "doi": "10.1590/0074-02760180082",
+  "language": "eng"
+ },
+ "melo2010": {
+  "source": "pubmed",
+  "pmid": "20464142",
+  "authors": [
+   "Melo MS",
+   "Barreto FR",
+   "Costa Mda C",
+   "Morato VC",
+   "Teixeira MG"
+  ],
+  "title": "[Progression of dengue virus circulation in the State of Bahia, Brazil, 1994-2000].",
+  "journal": "Rev Soc Bras Med Trop",
+  "year": "2010",
+  "volume": "43",
+  "issue": "2",
+  "pages": "139-44",
+  "doi": "10.1590/s0037-86822010000200007",
+  "language": "por"
  }
 }

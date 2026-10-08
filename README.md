@@ -8,18 +8,21 @@ Data, search log, codebook and Python scripts for the scoping review
 
 ## Summary
 
-The review mapped 103 studies on dengue epidemics in Brazil published from 1983 to 2026 in English,
-Portuguese and Spanish (PubMed/MEDLINE, SciELO, ScienceDirect and the SciSpace semantic index; searches on
-7 October 2026). Each study was charted and coded for federative unit, region, spatial scale, design,
-epidemic period and serotype(s), and a serotype-year evidence matrix was built from 62 studies
-(260 serotype-year records).
+The review mapped 286 studies on dengue epidemics in Brazil published from 1983 to 2026 in English,
+Portuguese and Spanish (PubMed/MEDLINE, SciELO, ScienceDirect and the SciSpace semantic index, searched on
+7 October 2026, and LILACS, fully screened on 8 October 2026). Each study was charted and coded for federative unit, region, spatial scale, design,
+epidemic period and serotype(s), and a serotype-year evidence matrix was built from 106 studies
+(495 serotype-year records).
 
 ## Repository structure
 
 ```
 data/
   raw/
-    included_studies.xlsx       charting table of the 103 included studies
+    included_studies.xlsx       charting table of the 103 studies included in the first search round
+    lilacs_additions.py         183 studies added by the full screening of LILACS (charted and coded)
+    lilacs_fulltext.py          serotype information extracted from full texts of the LILACS additions
+    lilacs_screening.py         decisions for all 459 LILACS records
     search_log.csv              sources, dates, strategies and numbers of records
     prisma_counts.csv           counts for the PRISMA-ScR flow diagram
     cited_references.csv        PMIDs/DOIs of the references cited in the article
@@ -39,7 +42,8 @@ code/
   run_all.py                    runs the pipeline
 figures/                        Figures 1-3
 tables/                         Tables 1-2 (.docx, editable), Table 2 (.csv/.xlsx), stats_for_text.json
-supplementary/                  S1 included studies, S2 search log, S3 PRISMA-ScR checklist, Figure S1
+supplementary/                  S1 included studies, S2 search log, S3 PRISMA-ScR checklist,
+                                S4 LILACS screening log, Figure S1 (PRISMA flow diagram)
 ```
 
 ## Reproducing the analysis
@@ -63,9 +67,9 @@ included studies (marked *); not reported, not typed or full text unavailable; n
 
 ## Limitations of the search
 
-The LILACS/Virtual Health Library portal was unavailable (HTTP 502) on 7 and 8 October 2026. Four broader
-PubMed strategies were screened up to their 30-60 top-ranked records and ScienceDirect up to its first 50
-results (see `data/raw/search_log.csv`).
+In the first search round, four broader PubMed strategies were screened up to their 30-60 top-ranked records
+and ScienceDirect up to its first 50 results (see `data/raw/search_log.csv`). All 459 LILACS records were
+screened (`supplementary/S4_LILACS_screening_log.xlsx`).
 
 ## How to cite
 

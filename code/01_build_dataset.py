@@ -38,6 +38,9 @@ REGION = {
     "ES": "Southeast", "MG": "Southeast", "RJ": "Southeast", "SP": "Southeast",
     "PR": "South", "RS": "South", "SC": "South",
     "BR": "National",
+    # pseudo-codes for studies whose state is not specified
+    "NORTE": "North", "NORDESTE": "Northeast", "SUDESTE": "Southeast", "SUL": "South", "CO": "Central-West",
+    "UNK": "Not specified",
 }
 
 # id: (state(s), spatial scale, design, epidemic period start, end)
@@ -135,11 +138,43 @@ SERO_YEARS = [
 ]
 
 
+def _load(path):
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(path.stem, path)
+    m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+    return m
+
+
+# groups of municipalities (metropolitan or health regions) coded as municipal scale
+SCALE_FIX = {138: "Municipal", 213: "Municipal", 390: "Municipal", 438: "Municipal", 448: "Municipal"}
+
+
+def add_lilacs(df):
+    """Append the studies included after the full screening of LILACS (ids 104 onwards)."""
+    add = _load(ROOT / "data" / "raw" / "lilacs_additions.py")
+    ft = _load(ROOT / "data" / "raw" / "lilacs_fulltext.py")
+    recs = sorted(add.ADDITIONS, key=lambda r: (r[2], r[1]))
+    rows, sero = [], []
+    for n, r in enumerate(recs, start=len(df) + 1):
+        (idx, au, yr, ti, jo, doi, lang, setting, sero_txt, find, st, scale, des, a, b, sy) = r
+        if idx in ft.FULLTEXT_FOUND:
+            sero_txt, sy = ft.FULLTEXT_FOUND[idx][0], sy + ft.FULLTEXT_FOUND[idx][1]
+        elif sero_txt == add.NR:
+            sero_txt = ("Não informado no resumo; texto completo não acessado" if idx in ft.NOT_ACCESSED
+                        else "Não informado (texto completo)")
+        rows.append(dict(id=n, author=au, year=yr, title=ti, setting=setting, serotype=sero_txt,
+                         main_findings=find, doi=doi or "Não informado", journal=jo, language=lang,
+                         databases="LILACS", lilacs_index=idx))
+        CODING[n] = (st, SCALE_FIX.get(idx, scale), des, a, b)
+        sero += [(n, s_, y1, y2) for s_, y1, y2 in sy]
+    return pd.concat([df, pd.DataFrame(rows)], ignore_index=True), sero
+
+
 def serotype_status(s: str) -> str:
     """Where the serotype information came from."""
     if s.startswith("Não se aplica"):
         return "Not applicable"
-    if s.startswith("Não informado") or s.startswith("Não tipado") or "inacessível" in s:
+    if s.startswith("Não informado") or s.startswith("Não tipado") or s.startswith("Não identificado")             or "inacessível" in s or "não acessado" in s:
         return "Not reported/not typed"
     if "†" in s:
         return "Full text"
@@ -153,6 +188,7 @@ def main():
     df.columns = ["id", "author", "year", "title", "setting", "serotype", "main_findings",
                   "doi", "journal", "language", "databases"]
     assert set(CODING) == set(df["id"]), "Every study must be coded"
+    df, lil_sero_years = add_lilacs(df)
     cod = pd.DataFrame.from_dict(CODING, orient="index",
                                  columns=["states", "scale", "design_code", "period_start", "period_end"])
     df = df.merge(cod, left_on="id", right_index=True)
@@ -164,15 +200,15 @@ def main():
                               labels=["1981-1990", "1991-2000", "2001-2010", "2011-2020", "2021-2026"])
     df["language_en"] = df["language"].replace({"Inglês": "English", "Português": "Portuguese",
                                                  "Espanhol": "Spanish", "Inglês/Português": "English/Portuguese"})
-    for k in ["PubMed", "SciELO", "ScienceDirect", "SciSpace"]:
+    for k in ["PubMed", "SciELO", "ScienceDirect", "SciSpace", "LILACS"]:
         df[f"db_{k}"] = df["databases"].str.contains(k)
     df.to_csv(OUT / "included_studies_coded.csv", index=False, encoding="utf-8-sig")
 
-    sy = pd.DataFrame(SERO_YEARS, columns=["id", "serotype", "year_start", "year_end"])
+    sy = pd.DataFrame(SERO_YEARS + lil_sero_years, columns=["id", "serotype", "year_start", "year_end"])
     assert sy["id"].isin(df["id"]).all()
     rows = [(r.id, f"DENV-{r.serotype}", y) for r in sy.itertuples()
             for y in range(r.year_start, r.year_end + 1)]
-    pd.DataFrame(rows, columns=["id", "serotype", "year"]).merge(
+    pd.DataFrame(rows, columns=["id", "serotype", "year"]).drop_duplicates().merge(
         df[["id", "states", "region"]], on="id").to_csv(
         OUT / "serotype_year_evidence.csv", index=False, encoding="utf-8-sig")
     print(f"{len(df)} studies coded; {len(rows)} serotype-year records")

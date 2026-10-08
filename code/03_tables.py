@@ -44,13 +44,13 @@ def main():
             rows.append((f"   {k}", pct(int(vc.get(k, 0)), N)))
 
     block("Publication period", d["pub_period"], PERIODS)
-    block("Language of publication", d["language_en"], ["English", "Portuguese", "Spanish", "English/Portuguese"])
-    rows.append(("Database where retrieved (not mutually exclusive)", ""))
-    for k in ["PubMed", "SciELO", "ScienceDirect", "SciSpace"]:
+    block("Language of publication", d["language_en"], ["English", "Portuguese", "English/Portuguese", "Spanish"])
+    rows.append(("Source through which the study was first identified", ""))
+    for k in ["PubMed", "SciELO", "ScienceDirect", "SciSpace", "LILACS"]:
         rows.append((f"   {k}", pct(int(d[f"db_{k}"].sum()), N)))
     rows.append(("Region of study (not mutually exclusive)", ""))
     reg = d["region"].str.split(";").explode().value_counts()
-    for k in ["Southeast", "Northeast", "North", "Central-West", "South", "National"]:
+    for k in ["Southeast", "Northeast", "North", "Central-West", "South", "National", "Not specified"]:
         rows.append((f"   {k}", pct(int(reg.get(k, 0)), N)))
     block("Spatial scale", d["scale"], ["Municipal", "State", "Multi-state", "National"])
     block("Study design/focus", d["design"])

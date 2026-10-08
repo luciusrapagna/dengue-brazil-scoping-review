@@ -44,6 +44,12 @@ ORIGINAL_TITLES = {  # titles in the original language of publication (journal r
     "heinen2015": "Dengue outbreak in Mato Grosso State, midwestern Brazil",
     "oliveiraMA2018": ("El papel de los flujos interregionales en la diseminación de epidemias de dengue "
                        "en una ciudad de clima tropical"),
+    "montenegro2006": "Aspectos clínicos e epidemiológicos da epidemia de dengue no Recife, PE, em 2002",
+    "melo2010": "Progressão da circulação do vírus do dengue no Estado da Bahia, 1994-2000",
+    "marques2020": ("Avaliação da não completude das notificações compulsórias de dengue registradas por município "
+                    "de pequeno porte no Brasil"),
+    "moraes2009": ("Análise da concordância dos dados de mortalidade por dengue em dois sistemas nacionais de "
+                   "informação em saúde, Brasil, 2000-2005"),
     "costa2011": ("Dengue: aspectos epidemiológicos e o primeiro surto ocorrido na região do Médio Solimões, "
                   "Coari, Estado do Amazonas, no período de 2008 a 2009"),
 }
@@ -62,15 +68,15 @@ TABLE1 = [
     ("II. Co-circulation\n1990–2000", "DENV-2 introduced (Rio de Janeiro, 1990); DENV-1/DENV-2 co-circulation",
      "Spread to the Northeast and Centre; first dengue haemorrhagic fever cases; high seroprevalence and "
      "'silent' transmission; shift to nationwide endemic-epidemic circulation from 1994",
-     "[@nogueira1990;@nogueira1995;@vasconcelos1998;@cunha1999;@teixeira2002;@siqueira2005]"),
+     "[@nogueira1990;@nogueira1999;@nogueira1995;@vasconcelos1995;@vasconcelos1998;@cunha1999;@teixeira2002;@siqueira2005]"),
     ("III. Severity\n2001–2009", "DENV-3 introduced (2000–2001); DENV-2 new lineage (2007–2008)",
      "Largest epidemics until then (Rio de Janeiro 2002: 288,245 cases); higher odds of shock with DENV-3; "
      "dispersal along road networks; shift of severe disease to children in 2008",
-     "[@nogueira2001;@nogueira2005;@passos2004;@melo2007;@nunes2016;@teixeira2013]"),
+     "[@nogueira2001;@nogueira2005;@passos2004;@melo2007;@montenegro2006;@cordeiro2007;@nunes2016;@teixeira2013]"),
     ("IV. Hyperendemicity\n2010–2019", "DENV-4 re-introduced (Roraima, 2010); four serotypes co-circulating",
-     "DENV-4 waves in 2012–2013; yearly replacement of dominant serotype; large unreported fraction; "
-     "rising burden and deaths; record local incidence in the South",
-     "[@temporao2011;@ramalho2018;@heinen2015;@faria2017;@oliveira2018;@araujo2017;@andrioli2020]"),
+     "DENV-4 waves in 2012–2013; yearly replacement of dominant serotype and lineages; large unreported "
+     "fraction; rising burden and deaths; record local incidence in the South",
+     "[@temporao2011;@ramalho2018;@heinen2015;@faria2017;@oliveira2018;@jesus2020;@araujo2017;@andrioli2020]"),
     ("V. Record epidemics and new tools\n2020–2026", "DENV-1 and DENV-2 predominant; DENV-3 re-emergence (lineage 3III_B.3.2, 2023)",
      "Expansion to the South; 2024 epidemic with about 6.6 million probable cases; vaccine and Wolbachia "
      "effectiveness evidence; delayed emergency responses",
@@ -80,12 +86,12 @@ FIG_LEGENDS = [
     ("Figure1_serotype_evidence_map", "Figure 1. Serotype-year evidence map of dengue epidemics in Brazil, 1981–2025.",
      "(A) Number of included studies with dated primary evidence for each epidemic year; shading indicates the five "
      "epidemic phases. (B) Number of studies reporting the circulation of each serotype by year; triangles indicate "
-     "documented introductions or re-emergence. Source: The authors, based on 62 included studies (260 serotype-year records)."),
-    ("Figure2_geography_and_design", "Figure 2. Geographic distribution and design of the 103 included studies.",
+     "documented introductions or re-emergence. Source: The authors, based on 106 included studies (495 serotype-year records)."),
+    ("Figure2_geography_and_design", "Figure 2. Geographic distribution and design of the 286 included studies.",
      "(A) Number of studies by federative unit, grouped by macro-region; studies covering more than one unit are counted "
-     "in each. (B) Study design or focus by publication period. Source: The authors."),
+     "in each; pseudo-categories group studies whose federative unit was not specified. (B) Study design or focus by publication period. Source: The authors."),
     ("Figure3_serotype_reporting", "Figure 3. Source of serotype information in studies of dengue epidemics in Brazil, by publication period.",
-     "Percentages refer to the 98 studies for which serotype information was applicable. Source: The authors."),
+     "Percentages refer to the 276 studies for which serotype information was applicable. Source: The authors."),
 ]
 
 
@@ -286,9 +292,9 @@ def main():
     tables = [
         ("Table 1. Phases of dengue epidemics in Brazil according to serotype succession, 1981–2026.",
          t1_header, t1_rows, [3.0, 3.6, 5.6, 2.8], "Source: The authors, based on the included studies (reference numbers in the last column)."),
-        ("Table 2. Characteristics of the 103 studies on dengue epidemics in Brazil included in the review.",
+        ("Table 2. Characteristics of the 286 studies on dengue epidemics in Brazil included in the review.",
          ["Characteristic", "n (%)"], list(t2.itertuples(index=False, name=None)), [11.0, 4.0],
-         "Source: The authors. Percentages are calculated over the 103 studies; categories marked as not mutually exclusive may add up to more than 100%."),
+         "Source: The authors. Percentages are calculated over the 286 studies; categories marked as not mutually exclusive may add up to more than 100%."),
     ]
     for title, header, rows, widths, source in tables:
         doc.add_page_break()
