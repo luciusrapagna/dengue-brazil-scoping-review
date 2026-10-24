@@ -7,3 +7,7 @@ __pycache__/
 
 # Manuscript files are kept private until publication
 manuscript/
+
+# RSBMT submission package (contains manuscript text)
+submission_RSBMT/
+code/rsbmt_*
