@@ -71,6 +71,15 @@ In the first search round, four broader PubMed strategies were screened up to th
 and ScienceDirect up to its first 50 results (see `data/raw/search_log.csv`). All 459 LILACS records were
 screened (`supplementary/S4_LILACS_screening_log.xlsx`).
 
+## Version history
+
+- **v1.1.1 (2026)**: Table 2 corrected: the database row is now labelled "Database in which the study was
+  retrieved (not mutually exclusive)" (15 studies were retrieved from two databases) and the footnote explains that one
+  study covered both the Northeast and the Southeast. Eight references cited in the revised article (One Health,
+  vector surveillance and climate-dengue studies) added to `cited_references.csv` and `references_metadata.json`.
+- **v1.1.0 (2026)**: full screening of LILACS (183 studies added; 286 in total).
+- **v1.0.0 (2026)**: first release (103 studies).
+
 ## How to cite
 
 See `CITATION.cff` or the Zenodo record: https://doi.org/10.5281/zenodo.23242684

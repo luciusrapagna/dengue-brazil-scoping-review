@@ -45,7 +45,7 @@ def main():
 
     block("Publication period", d["pub_period"], PERIODS)
     block("Language of publication", d["language_en"], ["English", "Portuguese", "English/Portuguese", "Spanish"])
-    rows.append(("Source through which the study was first identified", ""))
+    rows.append(("Database in which the study was retrieved (not mutually exclusive)", ""))
     for k in ["PubMed", "SciELO", "ScienceDirect", "SciSpace", "LILACS"]:
         rows.append((f"   {k}", pct(int(d[f"db_{k}"].sum()), N)))
     rows.append(("Region of study (not mutually exclusive)", ""))

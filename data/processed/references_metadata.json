@@ -1888,5 +1888,160 @@
   "pages": "139-44",
   "doi": "10.1590/s0037-86822010000200007",
   "language": "por"
+ },
+ "ohhlep2022": {
+  "authors": [
+   "One Health High-Level Expert Panel (OHHLEP)",
+   "Adisasmito WB",
+   "Almuhairi S",
+   "Behravesh CB",
+   "Bilivogui P",
+   "Bukachi SA",
+   "Casas N"
+  ],
+  "title": "One Health: A new definition for a sustainable and healthy future.",
+  "journal": "PLoS Pathog",
+  "year": "2022",
+  "volume": "18",
+  "issue": "6",
+  "pages": "e1010537",
+  "source": "pubmed",
+  "pmid": "35737670",
+  "doi": "10.1371/journal.ppat.1010537",
+  "language": "eng"
+ },
+ "osasah2025": {
+  "authors": [
+   "Osasah VA",
+   "Togami E",
+   "Aloosh M",
+   "Schoch-Spana M",
+   "Davis MF"
+  ],
+  "title": "Existing strategies to address the risk of mosquito-transmitted dengue in the continental USA: opportunities to adopt a One Health approach.",
+  "journal": "Res Dir One Health",
+  "year": "2025",
+  "volume": "3",
+  "issue": "",
+  "pages": "e8",
+  "source": "pubmed",
+  "pmid": "41026577",
+  "doi": "10.1017/one.2025.10007",
+  "language": "eng"
+ },
+ "santos2026": {
+  "authors": [
+   "Santos MB",
+   "Nogueira MLO",
+   "Monteiro EMH",
+   "Nascimento TC",
+   "Meurer IR"
+  ],
+  "title": "Epidemiologia da dengue no Brasil, características gerais dessa doença tropical negligenciada e a vacinação como forma de prevenção.",
+  "journal": "Rev Delos",
+  "year": "2026",
+  "volume": "19",
+  "issue": "84",
+  "pages": "e10086",
+  "source": "crossref",
+  "pmid": "",
+  "doi": "10.55905/rdelosv19.n84-089",
+  "language": "por"
+ },
+ "andrade2022": {
+  "authors": [
+   "Andrade EHP",
+   "Figueiredo LB",
+   "Vilela APP",
+   "Rosa JCC",
+   "Zibaoui HM",
+   "Kroon EG"
+  ],
+  "title": "Virological Surveillance of Aedes aegypti Vectors Identifies All Four Dengue Serotypes in a Hyperendemic Region.",
+  "journal": "Ecohealth",
+  "year": "2022",
+  "volume": "19",
+  "issue": "1",
+  "pages": "75-84",
+  "source": "pubmed",
+  "pmid": "35318521",
+  "doi": "10.1007/s10393-022-01583-x",
+  "language": "eng"
+ },
+ "leandro2021": {
+  "authors": [
+   "Leandro AS",
+   "Lopes RD",
+   "Martins CA",
+   "Rivas AV",
+   "da Silva I",
+   "Galvão SR",
+   "Maciel-de-Freitas R"
+  ],
+  "title": "The adoption of the One Health approach to improve surveillance of venomous animal injury, vector-borne and zoonotic diseases in Foz do Iguaçu, Brazil.",
+  "journal": "PLoS Negl Trop Dis",
+  "year": "2021",
+  "volume": "15",
+  "issue": "2",
+  "pages": "e0009109",
+  "source": "pubmed",
+  "pmid": "33600424",
+  "doi": "10.1371/journal.pntd.0009109",
+  "language": "eng"
+ },
+ "finch2025": {
+  "authors": [
+   "Finch E",
+   "Chang CC",
+   "Kucharski A",
+   "Sim S",
+   "Ng LC",
+   "Lowe R"
+  ],
+  "title": "Climate variation and serotype competition drive dengue outbreak dynamics in Singapore.",
+  "journal": "Nat Commun",
+  "year": "2025",
+  "volume": "16",
+  "issue": "1",
+  "pages": "11364",
+  "source": "pubmed",
+  "pmid": "41274877",
+  "doi": "10.1038/s41467-025-66411-6",
+  "language": "eng"
+ },
+ "sirisena2014": {
+  "authors": [
+   "Sirisena PD",
+   "Noordeen F"
+  ],
+  "title": "Evolution of dengue in Sri Lanka-changes in the virus, vector, and climate.",
+  "journal": "Int J Infect Dis",
+  "year": "2014",
+  "volume": "19",
+  "issue": "",
+  "pages": "6-12",
+  "source": "pubmed",
+  "pmid": "24334026",
+  "doi": "10.1016/j.ijid.2013.10.012",
+  "language": "eng"
+ },
+ "paul2027": {
+  "authors": [
+   "Paul KK",
+   "Regan DG",
+   "Green DL",
+   "Macadam I",
+   "Gray RT"
+  ],
+  "title": "A climate-driven mechanistic transmission model to characterize dengue epidemiology in Dhaka, Bangladesh.",
+  "journal": "Infect Dis Model",
+  "year": "2027",
+  "volume": "12",
+  "issue": "1",
+  "pages": "357-370",
+  "source": "crossref",
+  "pmid": "",
+  "doi": "10.1016/j.idm.2026.10.005",
+  "language": "eng"
  }
 }

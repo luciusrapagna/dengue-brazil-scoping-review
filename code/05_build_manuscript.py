@@ -294,7 +294,7 @@ def main():
          t1_header, t1_rows, [3.0, 3.6, 5.6, 2.8], "Source: The authors, based on the included studies (reference numbers in the last column)."),
         ("Table 2. Characteristics of the 286 studies on dengue epidemics in Brazil included in the review.",
          ["Characteristic", "n (%)"], list(t2.itertuples(index=False, name=None)), [11.0, 4.0],
-         "Source: The authors. Percentages are calculated over the 286 studies; categories marked as not mutually exclusive may add up to more than 100%."),
+         "Source: The authors. Percentages are calculated over the 286 studies; categories marked as not mutually exclusive may add up to more than 100% (15 studies were retrieved from two databases, and one study covered both the Northeast and the Southeast)."),
     ]
     for title, header, rows, widths, source in tables:
         doc.add_page_break()
